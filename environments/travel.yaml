@@ -1,7 +1,0 @@
-# Shared environment for every agent on the travel team.
-# Unrestricted networking so web search / web fetch can reach airline, cruise,
-# hotel and government sites; the agents only research and never book or pay.
-name: travel-specialist-env
-config:
-  type: cloud
-  networking: {type: unrestricted}
